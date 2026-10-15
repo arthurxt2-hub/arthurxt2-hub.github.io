@@ -1,0 +1,47 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Arthur Torres Ads</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+<style>
+  :root { --bg:#f6f7fb; --card:#ffffff; --text:#1d2433; --muted:#5d6678; --line:#e4e7ef; --accent:#2563eb; --accent2:#7c3aed; }
+  @media (prefers-color-scheme: dark) { :root { --bg:#0f1218; --card:#171b23; --text:#e8ebf2; --muted:#9aa3b5; --line:#262c38; --accent:#60a5fa; --accent2:#a78bfa; } }
+  * { box-sizing:border-box; }
+  body { margin:0; font-family:'Inter',system-ui,sans-serif; background:var(--bg); color:var(--text); line-height:1.65; }
+  .hero { background:linear-gradient(135deg,var(--accent),var(--accent2)); color:#fff; padding:64px 16px 96px; text-align:center; }
+  .badge { width:64px; height:64px; border-radius:18px; background:rgba(255,255,255,.18); border:1px solid rgba(255,255,255,.35); display:inline-flex; align-items:center; justify-content:center; font-weight:700; font-size:1.4rem; letter-spacing:.5px; margin-bottom:18px; }
+  .hero h1 { margin:0; font-size:2rem; font-weight:700; }
+  .hero p { margin:10px auto 0; max-width:520px; opacity:.92; }
+  main { max-width:760px; margin:-56px auto 48px; padding:0 16px; }
+  .card { background:var(--card); border:1px solid var(--line); border-radius:18px; padding:28px; box-shadow:0 10px 30px rgba(20,30,60,.08); }
+  .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:14px; margin-top:20px; }
+  .link { display:block; padding:18px; border:1px solid var(--line); border-radius:14px; text-decoration:none; color:var(--text); transition:.15s; }
+  .link:hover { border-color:var(--accent); transform:translateY(-2px); }
+  .link strong { display:block; font-weight:600; }
+  .link span { color:var(--muted); font-size:.9rem; }
+  footer { text-align:center; color:var(--muted); font-size:.85rem; margin-top:28px; }
+  footer a { color:var(--accent); }
+</style>
+</head>
+<body>
+  <header class="hero">
+    <div class="badge">AT</div>
+    <h1>Arthur Torres Ads</h1>
+    <p>Ferramenta interna de uso pessoal para consulta e gestão de campanhas no Google Ads, via Google Ads API.</p>
+  </header>
+  <main>
+    <div class="card">
+      <p style="margin-top:0">Esta aplicação é utilizada exclusivamente por Arthur Torres para gerar análises, relatórios e ajustes de campanhas nas contas de anúncio às quais ele já possui acesso. Não é oferecida ao público.</p>
+      <div class="grid">
+        <a class="link" href="privacidade.html"><strong>Política de Privacidade</strong><span>Como os dados são acessados e protegidos</span></a>
+        <a class="link" href="termos.html"><strong>Termos de Serviço</strong><span>Condições de uso da ferramenta</span></a>
+      </div>
+    </div>
+    <footer>Contato: <a href="mailto:arthurxt2@gmail.com">arthurxt2@gmail.com</a></footer>
+  </main>
+</body>
+</html>
